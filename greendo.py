@@ -315,7 +315,7 @@ class ResponseError(Exception):
     def __init__(self, reason, data):
         self.reason = reason
         self.data = data
-        super(ResponseError, self).__init__("{}: {!r}", reason, data)
+        super(ResponseError, self).__init__("{}: {!r}".format(reason, data))
 
 class Client(object):
     """A client for talking to the GDO.
