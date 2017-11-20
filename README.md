@@ -1,4 +1,6 @@
-# greendo - a RYOBI Garage Door Opener (GDO) client library
+# greendo - a client library for the RYOBI GDO (Garage Door Opener)
+
+Why GreenDO? Because it's a green door opener.
 
 A Python client for getting status from and manipulating a RYOBI GDO (after setting it up with the official app, first).
 
